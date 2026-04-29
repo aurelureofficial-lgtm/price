@@ -148,6 +148,6 @@ export default function CandlePriceCalculator() {
         <p>Total Cost: {currency(calc.total)}</p>
         <p>Selling Price: {currency(calc.sellingPrice)}</p>
       </div>
-    </div>
+    </div> 
   );
 }
