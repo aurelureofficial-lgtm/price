@@ -59,8 +59,8 @@ export default function CandlePriceCalculator() {
 
     const grams = Number(waxGrams) || 0;
     const half = grams / 2;
-    const wax1 = (half / 1000) * 170;
-    const wax2 = (half / 1000) * 170;
+    const wax1 = (half / 1000) * 155;
+    const wax2 = (half / 1000) * 155;
     const waxCost = wax1 + wax2;
 
     const pricePerGram = (Number(fragPricePerL) || 0) / 1000;
